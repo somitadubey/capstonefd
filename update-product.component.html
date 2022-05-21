@@ -1,7 +1,7 @@
 br><br>
 <div class="login-form" style="width:44%" >
     <form   (ngSubmit) = "updateProduct()">
-        <h2 class="text-center" >Edit Product</h2>       
+        <h2 class="text-center" >Update Product</h2>       
         <div class="form-group">
             Name:<input [(ngModel)] = "product.name" name = "name" type="text" class="form-control" placeholder={{product.name}} required="required">
         </div>
@@ -33,7 +33,7 @@ br><br>
         <br>
 
         <div class="form-group">
-            <button type="submit" class="btn btn-success btn-block">edit</button>
+            <button type="submit" class="btn btn-success btn-block">Update</button>
         </div>
                
     </form>
